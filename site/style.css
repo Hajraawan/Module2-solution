@@ -1,0 +1,153 @@
+
+
+  /* <div>Regular text</div>
+
+<div style="font-size: 2em;">2em text
+
+  <div style="font-size: 2em;">4em text
+
+    <div style="font-size: .5em;">2em again!</div>
+    </div> */
+
+
+/********** Base styles **********/
+h1{margin:0px;
+padding:0px;
+}
+.body {
+
+background-color: #ddccff;
+
+font-size: 110%;
+
+font-weight: bold;
+
+ font-family: Arial, Helvetica, sans-serif;
+
+}
+#menu{
+	
+	text-align:center;
+	margin-bottom:3%;
+}
+
+#section1 {
+
+border: 1px solid black;
+ background-color: #ffb6c1;
+
+display:inline-block;
+
+width: 28%;
+text-align:justify;
+
+height:auto;
+margin:0% 4% 4% 0%;
+
+}
+
+#par1{
+padding:0px 10px 0px 10px;	
+
+}
+#head1{
+	border: 1px solid black;
+	width:20%;
+	height:auto;
+	background-color:#FF00FF;
+	
+	text-align:center;
+	padding:10px;
+    font-size: 17px;
+	float:right;
+}
+	
+	#section2 {
+
+border: 1px solid black;
+ background-color: #ffb6c1;
+
+display:inline-block;
+margin:0% 4% 4% 0%;
+width: 28%;
+text-align:justify;
+
+height:auto;
+
+}
+
+#par2{
+padding:0px 10px 0px 10px;	
+
+}
+#head2{
+	
+    border: 1px solid black;
+	width:20%;
+	background-color:#D4AF37;
+	padding:10px;
+	text-align:center;
+    font-size: 17px;
+	float:right;
+	
+	}
+	
+	#section3 {
+
+border: 1px solid black;
+ background-color: #ffb6c1;
+
+display:inline-block;
+
+width: 28%;
+text-align:justify;
+
+height:auto;
+
+}
+
+#par3{
+padding:0px 10px 0px 10px;	
+
+}
+#head3{
+	width:20%;
+	background-color:#C0C0C0;
+	border: 1px solid black;
+	padding:10px;
+	text-align:center;
+    font-size: 17px;
+	float:right;
+	}
+
+
+@media only screen and (max-width : 992px) {
+		#section1{
+			
+			width:40%;
+		}
+		#section2{
+			width:40%;
+		}
+		#section3{
+			width:86%;
+			/*margin:0% 20% 0% 0%; */
+		}
+    }
+	@media only screen and (max-width : 767px) {
+		#section1{
+			
+			width:60%;
+			margin:0% 0% 5% 24% ;
+		}
+		#section2{
+			width:60%;
+			margin:0% 0% 5% 25% ;
+		}
+		#section3{
+			width:60%;
+			margin:0% 0% 5% 25% ;
+		}
+    }
+
+
